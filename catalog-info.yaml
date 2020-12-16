@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "doc-demo006"
+  description: "sdfsf"
+  annotations:
+    github.com/project-slug: "baobaoqiang/doc-demo006"
+    backstage.io/techdocs-ref: github:https://github.com/baobaoqiang/doc-demo006
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "wq"
